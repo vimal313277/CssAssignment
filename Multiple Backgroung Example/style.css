@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap");
+/* <!--=========================== OUR SERVICES section{start} ================================-- */
+
+#our-section {
+  width: 100%;
+  height: auto;
+  padding-bottom: 2%;
+}
+
+.our-flex {
+  display: flex;
+}
+
+.our-contend {
+  width: 50%;
+  height: 550px;
+  background-color: #333;
+}
+
+.our-img {
+  width: 50%;
+  height: 600px;
+  /* background-color: aquamarine; */
+}
+.our-h2 {
+  border-right: 6px solid #e74c3c;
+  margin-bottom: 36px;
+  text-align: end;
+  padding-right: 30px;
+  margin-right: 10%;
+}
+
+.our-h2 h2 {
+  color: white;
+  font-weight: 900;
+  margin-top: 14%;
+}
+
+.our-details {
+  text-align: end;
+  margin-right: 10%;
+  margin-bottom: 67px;
+  position: relative;
+}
+.our-details h4 {
+  color: #e74c3c;
+  padding-bottom: 15px;
+}
+
+.our-details p {
+  width: 100%;
+  font-size: 12px;
+  font-weight: 900;
+  color: white;
+}
+
+.our-img img {
+  width: 100%;
+  height: 550px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.our-icon {
+  background: #f4f5f9;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  color: #e74c3c;
+  border: 5px solid rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  font-size: 1.8rem;
+  position: absolute;
+  top: -7px;
+  right: -110px;
+}
+
+/* <!--=========================== OUR SERVICES section{End} ================================-- */

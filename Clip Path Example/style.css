@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* <!--=================================== main-start-section {start} ==========================================-- */
+
+#main-start-section {
+  /* background-color: red; */
+  width: 100%;
+  height: 888px;
+}
+
+.main-clip-path-img {
+  background: url(homebg.jpg);
+  width: 100%;
+  height: 785px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: red;
+  position: relative;
+  /* clip-path: polygon(100% 0, 100% 88%, 52% 100%, 0 88%, 0 0); */
+}
+.logo {
+  margin-left: 5%;
+  margin-top: 1%;
+}
+
+.flex-item {
+  display: flex;
+  justify-content: space-between;
+}
+.ul-contend {
+  display: flex;
+  width: 45%;
+  /* background: red; */
+  justify-content: space-evenly;
+  align-items: center;
+  margin-right: 4%;
+  margin-top: 1%;
+}
+.ul-contend li {
+  list-style: none;
+}
+.ul-contend li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: 0.5s;
+  /* border-bottom: 1px solid black;
+  padding-bottom: 14px; */
+}
+
+.ul-contend li a:hover {
+  border-bottom: 1px solid #e74c3c;
+  color: #e74c3c;
+  padding-bottom: 14px;
+}
+
+.Clients {
+  position: absolute;
+  left: 21%;
+  top: 35%;
+  text-align: center;
+}
+.Clients h3 {
+  color: white;
+}
+
+.Clients h1 {
+  font-family: "open_sansbold";
+  font-size: 5.143rem;
+  line-height: 5.5rem;
+  color: #fff;
+  letter-spacing: 0.4rem;
+}
+
+.separator {
+  width: 10px;
+  height: 10px;
+  margin: 20px auto;
+  background: #e74c3c;
+  position: relative;
+  display: inline-block;
+  border-radius: 50%;
+  top: 41%;
+  left: 51%;
+}
+.separator::before {
+  position: absolute;
+  right: 5%;
+  bottom: 4px;
+  height: 1px;
+  width: 80px;
+  background: #eee;
+  content: "";
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.separator::after {
+  position: absolute;
+  left: 5%;
+  bottom: 4px;
+  height: 1px;
+  width: 80px;
+  background: #eee;
+  content: "";
+  display: inline-block;
+  margin-left: 20px;
+}
+.home-para {
+  color: #fff;
+  max-width: 50%;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  font-size: 17px;
+  text-align: center;
+  margin-top: 22%;
+  font-family: serif;
+}
+.home-btn {
+  margin-left: 36%;
+  margin-top: 12px;
+}
+.home-btn a {
+  text-decoration: none;
+  font-weight: 700;
+  color: white;
+}
+.btn-one {
+  background: #e74c3c;
+  padding: 1.2rem 3rem;
+  border: none;
+  outline: none;
+}
+.btn-one:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.btn-two {
+  padding: 1.125rem 3rem;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  border: 1px solid white;
+  margin-left: 8px;
+}
+
+.home-btn .btn-two:hover {
+  background: #e74c3c;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.scrooldown {
+  position: absolute;
+  left: 48.5%;
+  bottom: -2%;
+  width: 40px;
+  height: 40px;
+  line-height: 48px;
+  background: #f4f5f9;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.scrooldown a i {
+  font-size: 1.4rem;
+  color: #e74c3c;
+}
+
+/* <!--=================================== main-start-section {END} ==========================================-- */
+
+/* <!--===================================  icon and contend section {start} ========================================-- */
+
+.icon-flex {
+  display: flex;
+  width: 85%;
+  margin: auto;
+  justify-content: space-evenly;
+  padding-bottom: 81px;
+}
+
+.main-icon {
+  width: 20%;
+  height: 270px;
+  /* background-color: red; */
+  text-align: center;
+}
+.single-icon {
+  border: 1px solid #ddd;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  margin: auto;
+  transition: all 0.6s;
+}
+
+.single-icon:hover {
+  border-color: red;
+}
+
+.fa-clone:hover {
+  transform: rotate(-45deg);
+}
+
+.fa-heart:hover {
+  transform: rotate(-45deg);
+}
+
+.fa-lightbulb-o:hover {
+  transform: rotate(-45deg);
+}
+
+.fa-comments:hover {
+  transform: rotate(-45deg);
+}
+
+.single-icon:hover {
+  transform: rotate(45deg);
+}
+
+.single-icon i {
+  padding: 28px;
+  color: #e74c3c;
+}
+
+.icon-h4 {
+  margin-top: 8%;
+}
+.icon-h4:hover {
+  color: #e74c3c;
+}
+
+.separator-3 {
+  height: 2px;
+  width: 40px;
+  margin: 20px auto;
+  background: #888;
+}
+
+.para-icon {
+  line-height: 19px;
+  font-size: 0.875rem;
+}
+
+/* <!--===================================  icon and contend section {end} ========================================-- */
